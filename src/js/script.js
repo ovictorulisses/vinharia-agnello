@@ -1,16 +1,16 @@
-let nomeVinho = prompt('Digite o nome do vinho:')
-let tipoVinho = prompt('Digite o tipo do vinho (Tinto, Branco ou Rosé):')
-let safraVinho = prompt('Digite o ano da safra:')
-let quantidadeEstoque = prompt('Digite a quantidade em estoque:')
+let nomeVinho = prompt('Digite o nome do vinho:');
+let tipoVinho = prompt('Digite o tipo do vinho (Tinto, Branco ou Rosé):');
+let safraVinho = prompt('Digite o ano da safra:');
+let quantidadeEstoque = prompt('Digite a quantidade em estoque:');
 
-alert('Cadastro realizado! Veja os detalhes no console.')
-alert('A seguir, veja os detalhes do vinho no console.')
+alert('Cadastro realizado! Veja os detalhes no console.');
+alert('A seguir, veja os detalhes do vinho no console.');
 
-console.log('====================================')
-console.log('Cadastro de Vinho - Vinheira Agnello')
-console.log('====================================')
-console.log(`Nome do vinho: ${nomeVinho}`)
-console.log(`Tipo: ${tipoVinho}`)
-console.log(`Safra: ${safraVinho}`)
-console.log(`Quantidade em estoque: ${quantidadeEstoque}`)
-console.log('====================================')
+console.log('====================================');
+console.log('Cadastro de Vinho - Vinheira Agnello');
+console.log('====================================');
+console.log(`Nome do vinho: ${nomeVinho}`);
+console.log(`Tipo: ${tipoVinho}`);
+console.log(`Safra: ${safraVinho}`);
+console.log(`Quantidade em estoque: ${quantidadeEstoque}`);
+console.log('====================================');
