@@ -1,79 +1,27 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-br">
 <head>
-    <title>Vinharia-agnello</title>
+    <meta charset="UTF-8">
+    <title>Vinharia Agnello</title>
     <link rel="stylesheet" href="src/css/style.css">
-
-    <style>
-        body {
-            margin: 0;
-            background-color: black;
-            color: white;
-        }
-
-        h1 {
-            text-align: center;
-            color: #8B0000;
-            font-family: Georgia, serif;
-            font-size: 40px;
-            margin-top: 20px;
-        }
-
-        nav {
-            text-align: center;
-            margin-top: 10px;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-
-        nav ul li a:hover {
-            color: #8B0000;
-        }
-    </style>
-
 </head>
-
 <body>
 
-<header>
-    
-    <h1>Vinharia-agnello</h1>
+    <header>
+        <h1>Vinharia Agnello</h1>
+        <p>Sistema de Gerenciamento de Vinhos Artesanais</p>
+    </header>
 
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Perfil</a></li>
-            <li><a href="#">Catálogo</a></li>
-        </ul>
-        
-    </nav>
+    <main>
+        <img src="src/assets/imgs/vinho.jpeg" alt="Vinho Tinto Premium">
 
-</header>
-<section class="vinho">
-    <img src="howard-bouchevereau-5eNfnN-ry5Q-unsplash.jpg" alt="Vinho">
+        <section>
+            <h2>Cadastro de Produtos</h2>
+            <p>Clique no botão abaixo para iniciar o registro de uma nova safra no sistema.</p>
+            <button onclick="window.location.reload()">Cadastrar Novo Vinho</button>
+        </section>
+    </main>
 
-    <div class="descricao">
-        <h2>Vinho Tinto Premium</h2>
-        <p>Um vinho encorpado com notas de frutas vermelhas, perfeito para ocasiões especiais.</p>
-
-        <button>Comprar</button>
-        
-    </div>
-</section>
+    <script src="src/js/script.js"></script>
 </body>
-
 </html>
