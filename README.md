@@ -11,6 +11,7 @@ Sistema básico para cadastro e análise de vinhos artesanais da Vinheira Agnell
 
 ### 🌐 GitHub Pages
 
+https://ovictorulisses.github.io/vinharia-agnello/
 
 ## 🧠 Objetivo do Projeto
 O objetivo deste sistema é aplicar os conceitos iniciais de JavaScript para gerenciar dados de vinhos artesanais, focando em:
