@@ -43,3 +43,19 @@ button {
 button:hover {
     background-color: #a00000;
 }
+
+header {
+    border-bottom: 1px solid #444;
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    position: absolute;
+    left: 40px;
+    top: 40%;
+    transform: translateY(-50%);
+} 
