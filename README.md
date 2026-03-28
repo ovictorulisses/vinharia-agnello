@@ -7,6 +7,7 @@ Sistema básico para cadastro e análise de vinhos artesanais da Vinheira Agnell
 *   **Victor Ulisses de Morais Silva**
 *   **Henrique Giusti de Souza**
 *   **Pietro Alexandre Guerato**
+*   **Alejandro Genrry Quisbert Nacho**
 
 ### 🌐 GitHub Pages
 
